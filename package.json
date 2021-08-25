@@ -1,0 +1,32 @@
+{
+  "name": "addressbook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyankaP1208/Address-Book-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyankaP1208/Address-Book-Backend/issues"
+  },
+  "homepage": "https://github.com/PriyankaP1208/Address-Book-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0"
+  }
+}
