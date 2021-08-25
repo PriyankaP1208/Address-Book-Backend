@@ -33,6 +33,22 @@ class UserController {
 			});
         }
     }
+
+    loginUser = (req, res) => {
+        try {
+            const userDetails = ({
+                emailId:req.body.emailId,
+                password:req.body.password
+            });
+
+            userController.loginUser(userDetails, (err, data) => {
+                return err ? res.status(400).send({success:false,message:err})
+                   : res.status(200).send({success:true,message:"Login Successful",data:data});
+            });
+        }catch(error) {
+            return res.send({ message: error.message });
+        }
+    }
 }
 
 module.exports = new UserController();

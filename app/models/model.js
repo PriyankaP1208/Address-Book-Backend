@@ -25,7 +25,7 @@ const UserSchema = mongoose.Schema({
 
 const userModel = mongoose.model('User', UserSchema);
 
-class UserRegistration{
+class UserRegistrationAndLogin{
     addUser=(userData, callback)=> {
         const user = new userModel({
             firstName: userData.firstName,
@@ -37,6 +37,20 @@ class UserRegistration{
             return (error) ? callback(error, null) : callback(null, userData);
         });
     }
+
+    userLogin(loginDetails, callback){
+		userModel.findOne({emailId: loginDetails.emailId}, (error, data) => {
+			if(error) {
+				return callback(error, null);
+			} else if (!data) {
+				return callback ("User doesn't exist", null);
+			}
+			else
+			{
+				return callback(null, data);
+			}
+		});
+	}
 }
 
-module.exports = new UserRegistration();
+module.exports = new UserRegistrationAndLogin();
