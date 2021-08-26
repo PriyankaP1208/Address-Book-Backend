@@ -1,0 +1,5 @@
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:31:50.476Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:32:51.731Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:35:39.770Z"}
+{"message":"Could not connect to the database","level":"error","timestamp":"2021-08-26T17:36:09.590Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:36:51.985Z"}

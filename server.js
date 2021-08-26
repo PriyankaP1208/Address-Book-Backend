@@ -1,7 +1,8 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const dbConfig = require('./config/config');
 require('dotenv').config()
+const logger = require('./config/loggers');
+
 
 // create express app
 const app = express();
@@ -17,6 +18,7 @@ dbConfig.dbConnection();
 // define a simple route
 app.get('/', (req, res) => {
     res.json({"message": "Welcome to Address Book Application"});
+    logger.info('Welcome to Address Book Application');
 });
 
 require('./app/routes/route.js')(app);
@@ -24,6 +26,7 @@ require('./app/routes/route.js')(app);
 // listen for requests
 app.listen(3000, () => {
     console.log(`Server is listening on port ${process.env.PORT}`);
+    logger.info('server is running on port 3000');
 });
 
 module.exports = app;

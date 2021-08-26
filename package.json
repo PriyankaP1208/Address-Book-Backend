@@ -33,7 +33,8 @@
     "joi": "^17.4.2",
     "jsonwebtoken": "^8.5.1",
     "mocha": "^9.1.0",
-    "mongoose": "^6.0.0"
+    "mongoose": "^6.0.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "chai": "^4.3.4"
