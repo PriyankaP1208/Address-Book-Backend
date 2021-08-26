@@ -1,4 +1,5 @@
 const userService = require('../models/model.js');
+const userHelper = require('../middleware/helper.js');
 
 class UserService {
     registerUser(userData, callback){
@@ -11,14 +12,14 @@ class UserService {
 
     loginUser = (loginDetails, callback) => {
         try {
+            
             userService.userLogin(loginDetails, (err, data) => {
                 if(err)
                 {
                     return callback(err, null);
                 }
-                else{
-                    return callback(null, data);
-                }
+                const token = userHelper.generateAccessToken(loginDetails);
+                return callback(null, token);
             });
         } catch (error) {
             return callback(error, null);
