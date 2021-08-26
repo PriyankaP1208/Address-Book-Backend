@@ -4,3 +4,8 @@
 {"message":"Could not connect to the database","level":"error","timestamp":"2021-08-26T17:36:09.590Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:36:51.985Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:42:21.950Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:47:42.017Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:50:43.516Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:55:15.216Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T18:00:33.070Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-26T18:03:54.592Z"}

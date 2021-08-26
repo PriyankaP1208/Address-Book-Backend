@@ -1,5 +1,6 @@
 const userController = require('../services/service');
 const validInput = require('../middleware/validation');
+const logger = require('../../config/loggers')
 
 class UserController {
     registerUser = (req, res) => {
