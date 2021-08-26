@@ -29,6 +29,7 @@ class UserController {
 				}
 				else
 				{
+                    logger.info('User registered successfully')
 					res.status(201).send({
 						success:true,
 						data:userData,

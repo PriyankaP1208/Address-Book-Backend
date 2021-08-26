@@ -50,8 +50,10 @@ class UserRegistrationAndLogin{
     userLogin(loginDetails, callback){
 		userModel.findOne({emailId: loginDetails.emailId}, (error, data) => {
 			if(error) {
+                logger.error('Some error occured');
 				return callback(error, null);
 			} else if (!data) {
+                logger.error('User not found');
 				return callback ("User doesn't exist", null);
 			}
 			else
