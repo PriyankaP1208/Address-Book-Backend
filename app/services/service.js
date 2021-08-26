@@ -3,16 +3,13 @@ const userHelper = require('../middleware/helper.js');
 
 class UserService {
     registerUser(userData, callback){
-
-			userService.addUser(userData, (error, data) => {
+        userService.addUser(userData, (error, data) => {
 				return (error) ? callback(error, null) : callback(null, data);
-			});
-		
+		});
 	}
 
     loginUser = (loginDetails, callback) => {
         try {
-            
             userService.userLogin(loginDetails, (err, data) => {
                 if(err)
                 {
