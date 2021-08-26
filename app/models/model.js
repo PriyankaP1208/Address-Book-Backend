@@ -21,8 +21,7 @@ const UserSchema = mongoose.Schema({
         require:true
     }
 }, {
-    timestamps: true,
-    versionKey:false
+    timestamps: true
 });
 
 UserSchema.pre('save', function (next) {
@@ -38,14 +37,14 @@ const userModel = mongoose.model('User', UserSchema);
 class UserRegistrationAndLogin{
     addUser=(userData, callback)=> {
         const user = new userModel({
-            firstName: userData.firstName,
-            lastName: userData.lastName,
-            emailId: userData.emailId,
-            password: userData.password
-        });
-        user.save((error, userData) => {
-            return (error) ? callback(error, null) : callback(null, userData);
-        });
+				firstName: userData.firstName,
+				lastName: userData.lastName,
+				emailId: userData.emailId,
+				password: userData.password
+			});
+			user.save({}, (error, userData) => {
+				return (error) ? callback(error, null) : callback(null, userData);
+			});
     }
 
     userLogin(loginDetails, callback){
