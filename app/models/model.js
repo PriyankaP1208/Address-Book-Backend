@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const logger = require('../../config/loggers')
 
 const bcrypt = require('bcrypt');
 

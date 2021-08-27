@@ -9,3 +9,22 @@
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T17:55:15.216Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-26T18:00:33.070Z"}
 {"message":"User registered successfully","level":"info","timestamp":"2021-08-26T18:03:54.592Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T02:14:56.666Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-27T02:14:57.134Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T02:16:03.096Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-27T02:16:03.342Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-27T02:16:03.441Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T02:56:47.699Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T03:48:52.812Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-27T03:48:53.290Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-27T03:48:53.418Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T07:08:24.744Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T07:13:33.375Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T07:32:57.778Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T07:34:16.525Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T07:34:47.629Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T08:11:27.583Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T08:12:48.315Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T13:09:25.909Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T13:11:22.962Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-27T13:13:56.877Z"}
