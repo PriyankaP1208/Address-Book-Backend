@@ -1,60 +1,60 @@
-const mongoose = require('mongoose');
-const logger = require('../../config/loggers')
+const mongoose = require("mongoose");
+const logger = require("../../config/loggers");
 
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcrypt");
 
 const UserSchema = mongoose.Schema({
-    firstName:{
-        type: String,
-        require: true
-    },
-    lastName:{
-        type:String,
-        require:true
-    },
-    emailId:{
-        type:String,
-        require:true,
-        unique:true
-    },
-    password:{
-        type:String,
-        require:true
-    }
+	firstName:{
+		type: String,
+		require: true
+	},
+	lastName:{
+		type:String,
+		require:true
+	},
+	emailId:{
+		type:String,
+		require:true,
+		unique:true
+	},
+	password:{
+		type:String,
+		require:true
+	}
 }, {
-    timestamps: true
+	timestamps: true
 });
 
-UserSchema.pre('save', function (next) {
-    bcrypt.hash(this.password, 10, (err, hashedPassword) => {
-      if (err) return next(err);
-      this.password = hashedPassword;
-      next();
-    });
-  });
+UserSchema.pre("save", function (next) {
+	bcrypt.hash(this.password, 10, (err, hashedPassword) => {
+		if (err) return next(err);
+		this.password = hashedPassword;
+		next();
+	});
+});
 
-const userModel = mongoose.model('User', UserSchema);
+const userModel = mongoose.model("User", UserSchema);
 
 class UserRegistrationAndLogin{
-    addUser=(userData, callback)=> {
-        const user = new userModel({
-				firstName: userData.firstName,
-				lastName: userData.lastName,
-				emailId: userData.emailId,
-				password: userData.password
-			});
-			user.save({}, (error, userData) => {
-				return (error) ? callback(error, null) : callback(null, userData);
-			});
-    }
+	addUser(userData, callback){
+		const user = new userModel({
+			firstName: userData.firstName,
+			lastName: userData.lastName,
+			emailId: userData.emailId,
+			password: userData.password
+		});
+		user.save({}, (error, userData) => {
+			return (error) ? callback(error, null) : callback(null, userData);
+		});
+	}
 
-    userLogin(loginDetails, callback){
+	userLogin(loginDetails, callback){
 		userModel.findOne({emailId: loginDetails.emailId}, (error, data) => {
 			if(error) {
-                logger.error('Some error occured');
+				logger.error("Some error occured");
 				return callback(error, null);
 			} else if (!data) {
-                logger.error('User not found');
+				logger.error("User not found");
 				return callback ("User doesn't exist", null);
 			}
 			else

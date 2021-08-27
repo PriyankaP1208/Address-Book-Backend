@@ -1,20 +1,20 @@
-const contactController = require('../services/contact');
+const contactController = require("../services/contact");
 
 class ContactController {
-    addContact = (req, res) => {
-        try {
-            const contact = {
+	addContact(req, res){
+		try {
+			const contact = {
 				firstName:req.body.firstName,
 				lastName:req.body.lastName,
 				emailId:req.body.emailId,
 				address:req.body.address,
-                city:req.body.city,
-                state:req.body.state,
-                phoneNo:req.body.phoneNo
+				city:req.body.city,
+				state:req.body.state,
+				phoneNo:req.body.phoneNo
 			};
 
-            contactController.addContact(contact, (err, userData) => {
-                if (err) {
+			contactController.addContact(contact, (err, userData) => {
+				if (err) {
 					return res.status(500).send({
 						sucess:false,
 						message: err.message || "Some error occurred"
@@ -29,15 +29,15 @@ class ContactController {
 					});
 				}   
 			});
-        } catch (error) {
-            return res.status(500).send({
+		} catch (error) {
+			return res.status(500).send({
 				success:false,
 				message:error.message || "Some error occured",
 			});
-        }
-    }
+		}
+	}
 
-    getAllContacts(req, res){
+	getAllContacts(req, res){
 		contactController.getAllContacts((error, contactData) => {
 			if(error){
 				return res.status(500).send({
@@ -53,7 +53,7 @@ class ContactController {
 		});
 	}
 
-    getOneContact(req, res){
+	getOneContact(req, res){
 		const contactId = req.params.contactId;
 		contactController.getContactById(contactId, (error,contactData) => {
 			if(error)
@@ -73,7 +73,7 @@ class ContactController {
 		});
 	}
 
-    updateContact(req, res){
+	updateContact(req, res){
 		const contactId=req.params.contactId;
 		const updateContactDetails = {
 			firstName:req.body.firstName,
@@ -82,11 +82,11 @@ class ContactController {
 			address:req.body.address,
 			city:req.body.city,
 			state:req.body.state,
-            zip:req.body.zip,
-            phoneNo:req.body.params
+			zip:req.body.zip,
+			phoneNo:req.body.params
 		};
 
-	    contactController.updateContact(contactId, updateContactDetails, (error, contactData) => {
+		contactController.updateContact(contactId, updateContactDetails, (error, contactData) => {
 			return error ? res.status(500).send({
 				success:false,
 				message:error.message
@@ -101,7 +101,7 @@ class ContactController {
 		return(error);
 	}
 
-    removeContact(req, res){
+	removeContact(req, res){
 		try{
 			const contactId = req.params.contactId;
 			contactController.reoveContact(contactId, (error, contactData) => {

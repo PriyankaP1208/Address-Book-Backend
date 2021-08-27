@@ -1,25 +1,25 @@
-const contactService = require('../models/contact');
+const contactService = require("../models/contact");
 
 class ContactService {
-    addContact(contactDetails, callback){
-        contactService.addContact(contactDetails, (error, data) => {
-				return (error) ? callback(error, null) : callback(null, data);
+	addContact(contactDetails, callback){
+		contactService.addContact(contactDetails, (error, data) => {
+			return (error) ? callback(error, null) : callback(null, data);
 		});
 	}
 
-    getAllContacts(callback){
+	getAllContacts(callback){
 		contactService.getAllContacts((error, data) => {
 			return error ? callback(error, null) : callback(null, data);
 		});
 	}
 
-    getContactById(contactId, callback){
+	getContactById(contactId, callback){
 		contactService.getOneContact(contactId, (error, contactData) => {
 			return error ? callback(error, null) : callback(null, contactData);
 		});
 	}
 
-    updateContact(contactId, contactDetails, callback){
+	updateContact(contactId, contactDetails, callback){
 		try{
 			contactService.updateContact(contactId, contactDetails, (error, data) => {
 				if(error){
@@ -34,7 +34,7 @@ class ContactService {
 		}
 	}
 
-    reoveContact(contactId, callback){
+	reoveContact(contactId, callback){
 		try {
 			contactService.removeContact(contactId, (error, data) => {
 				if(!contactId){
