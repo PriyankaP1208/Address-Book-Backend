@@ -1,8 +1,18 @@
 const contactController = require("../services/contact");
+const validInput = require("../middleware/contact");
 
 class ContactController {
 	addContact(req, res){
 		try {
+			const userInputValidation = validInput.validate(req.body);
+			if (userInputValidation.error) {
+				return res.status(400).send({
+					success: false,
+					message: "Enter valid details",
+					data: req.body,
+				});
+			}
+
 			const contact = {
 				firstName:req.body.firstName,
 				lastName:req.body.lastName,
