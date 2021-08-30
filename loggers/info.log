@@ -45,3 +45,57 @@
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T14:11:04.165Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T14:14:47.716Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T14:15:59.473Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:04:16.029Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-30T16:04:16.421Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:04:16.732Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:05:56.453Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:06:34.035Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-30T16:06:34.301Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:06:34.425Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:07:48.001Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:07:48.200Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:12:55.527Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:12:55.720Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:16:21.037Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:16:21.246Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:18:39.283Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:18:39.478Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:21:07.004Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:21:07.266Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:24:38.652Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:24:38.868Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:27:00.188Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:27:00.452Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:27:59.854Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:28:00.055Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:30:40.636Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:30:40.931Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T16:31:15.000Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T16:31:15.252Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:09:12.375Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:09:12.551Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:09:35.746Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:09:35.933Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:10:37.087Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:10:37.352Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:11:56.995Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:11:57.187Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:15:55.583Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:15:55.835Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:20:45.889Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:20:46.090Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:23:53.508Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:23:53.706Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:24:09.432Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:24:09.657Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:24:44.750Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:24:44.947Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:34:18.288Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:34:18.510Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:35:29.049Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:35:29.228Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:43:14.177Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:43:14.410Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T17:44:33.188Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-30T17:44:33.417Z"}
+{"message":"User not found","level":"error","timestamp":"2021-08-30T17:44:33.508Z"}

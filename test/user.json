@@ -42,5 +42,135 @@
     "loginFalseEmailId":{
         "emailId":"priya123gmail.com",
         "password":"Priya@123"
+    },
+
+    "createContact":{
+        "firstName":"Priyanka",
+        "lastName":"Patil",
+        "emailId":"priya123@gmail.com",
+        "address":"Vijapur Road",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"7867543456"
+    },
+
+    "falseFirstName":{
+        "firstName":"riya",
+        "lastName":"Patil",
+        "emailId":"priya123@gmail.com",
+        "address":"Vijapur Road",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"7867543456"
+    },
+
+    "falseLastName":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"Vijapur Road",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"7867543456"
+    },
+
+    "falseEmailId":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya12gmail",
+        "address":"Vijapur Road",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"7867543456"
+    },
+
+    "falseAddress":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"7867543456"
+    },
+
+    "falseZip":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413",
+        "phoneNo":"7867543456"
+    },
+
+    "falsePhoneNo":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"786754"
+    },
+
+    "noName":{
+        "firstName":" ",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"786754"
+    },
+
+    "noEmailId":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":" ",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":"786754"
+    },
+
+    "noPhoneNo":{
+        "firstName":"Priya",
+        "lastName":"atil",
+        "emailId":"priya123@gmail.com",
+        "address":"japurRoad",
+        "city":"Solapur",
+        "state":"Maharashtra",
+        "zip":"413004",
+        "phoneNo":""
+    },
+
+    "getContactById":{
+        "id":"612890a257d3696b902104a4"
+    },
+
+    "getWrongContactId":{
+        "id":"612890a257d"
+    },
+
+    "updateContactDetails":{
+        "id":"612890a257d3696b902104a4"
+    },
+
+    "updateWrongId":{
+        "id":"612890a257"
+    },
+
+    "deleteContact":{
+        "id":"6125383c7b6e66329c75d067"
     }
 }
