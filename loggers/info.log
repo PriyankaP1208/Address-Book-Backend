@@ -39,3 +39,5 @@
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T11:18:50.159Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T11:22:38.630Z"}
 {"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T11:29:59.603Z"}
+{"message":"server is running on port 3000","level":"info","timestamp":"2021-08-30T13:56:47.229Z"}
+{"message":"User registered successfully","level":"info","timestamp":"2021-08-30T13:57:40.096Z"}
